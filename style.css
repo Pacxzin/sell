@@ -1,0 +1,95 @@
+/* style.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #111;
+    color: #f1f1f1;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #1c1c1c;
+    border-bottom: 2px solid #333;
+  }
+  
+  
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #f96e85
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .card {
+    background-color: #1c1c1c;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 280px;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .card h2 {
+    margin: 0.5rem 0;
+    font-size: 1.3rem;
+  }
+  
+  .raridade {
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+  
+  /* Cores das raridades */
+  .normal    { color: #ccc; }
+  .ouro      { color: gold; }
+  .diamante  { color: #00e0ff; }
+  .arcoiris  { background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet); -webkit-background-clip: text; color: transparent; }
+  .lava      { color: #ff4500; }
+  
+  .botao {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #ff3e72;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s ease;
+  }
+  
+  .botao:hover {
+    background-color: #e92a5e;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1c1c1c;
+    border-top: 2px solid #333;
+    font-size: 0.9rem;
+  }
+  
